@@ -1,0 +1,4 @@
+pipelines:
+  path: "config/"  # 指定pipeline配置文件的路径
+  queue:  # 指定加载pipeline的顺序
+    - "demo_ppl"
